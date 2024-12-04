@@ -59,28 +59,27 @@ img{
 }
 .n:hover img{
     border-radius: 60px;;
-}
-@media screen and (max-width: 1500px) {
-    .box{
-        Width:890px;
-        height:780px;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .box{
-        Width:890px;
-        height:780px;
-    }
-}
-@media screen and (max-width: 750px) {
+}@media screen and (min-width: 500px) {
     .box{
         Width:430px;
         height:1320px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 750px) {
     .box{
         Width:430px;
         height:1320px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box{
+        Width:890px;
+        height:780px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .box{
+        Width:890px;
+        height:780px;
     }
 }
