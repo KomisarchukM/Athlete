@@ -6,7 +6,6 @@
     margin: 30px auto;
     display:flex;
     flex-wrap:wrap;
-    gap:30px;
 }
 .n{
     Width:200px;
@@ -14,12 +13,14 @@
     border-radius:10px;
     overflow: hidden;
     transition: 1s;
+    margin: 0 15px 15px 15px;
 }
 img{
     width: 200px;
     height: 200px;
     transition: 1s;
     border-radius:50%;
+    margin:0 1px;
 }
 .numberOutline{
     width: 32px;
@@ -55,31 +56,61 @@ img{
 }
 .n:hover{
     background: #EEEEEE;
-    height:287px;
+    height:344.4px;
+    margin:0 -17px -100px -17px;
+    width:264px;
+    z-index: 2;
+}
+.n:hover .name{
+    font-family: arial;
+    font-size:24px;
+    line-height: 27.6px;
+    text-align:center;
+    color:#2F4F4F;
+    margin-top:9.6px;
+    z-index: 1;
 }
 .n:hover img{
-    border-radius: 60px;;
-}@media screen and (min-width: 500px) {
+    border-radius: 60px;
+    width: 240px;
+    height: 240px;
+    margin: 12px 0 0 12px;
+    z-index: 1;
+}
+.n:hover .numberOutline{
+    width: 38.4px;
+    height: 38.4px;
+    margin:-150px 0 0 191.6px;
+}
+.n:hover .number{
+    font-family: arial;
+    font-size:19.2px;
+    line-height: 22.08px;
+    text-align:center;
+    color:#8B0000;
+    margin-top: 8.4px;
+}
+@media screen and (min-width: 500px) {
     .box{
-        Width:430px;
+        Width:490px;
         height:1320px;
     }
 }
 @media screen and (min-width: 750px) {
     .box{
-        Width:430px;
+        Width:490px;
         height:1320px;
     }
 }
 @media screen and (min-width: 1000px) {
     .box{
-        Width:890px;
+        Width:950px;
         height:780px;
     }
 }
 @media screen and (min-width: 1500px) {
     .box{
-        Width:890px;
+        Width:950px;
         height:780px;
     }
 }
